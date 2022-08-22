@@ -1,0 +1,99 @@
+.banner{ 
+    text-align: center; 
+    align-items: center;  
+    background-color: 	#333333;     
+    height: 300px; 
+    width: 100%;  
+    display: block; 
+    color: whitesmoke;
+    
+}   
+
+.bannerWords{   
+    color: white; 
+    font-size: 60px; 
+    font-family: "Lucida Console", "Courier New", monospace; 
+}  
+.bannerSub{   
+    color: darkgray; 
+    font-size: 30px; 
+    font-family: "Lucida Console", "Courier New", monospace;  
+}   
+.bottomBar{ 
+    text-align: center; 
+    align-items: center;  
+    background-color: white;     
+    height: 250px; 
+    width: 100%;  
+    display: flex; 
+    color: whitesmoke;
+    
+}   
+
+.bannerImage{ 
+    border: 2px solid black;
+    border-radius: 20px;  
+    margin-top: 3rem; 
+    margin-bottom: 2rem; 
+    height: 100%; 
+}
+
+a.social{ 
+    margin: 0 1rem; 
+    transition: transform 250ms; 
+    display:incline-block;  
+}
+a.social:hover{ 
+    opacity: 0.5;
+} 
+
+a.youtube{ 
+    color: #eb3223; 
+} 
+a.Github{ 
+    color: gray; 
+} 
+a.LinkedIn{ 
+    color: #1b91f1; 
+} 
+a.Mail{ 
+    color: #8C1515;;  
+} 
+a.Thingiverse{  
+} 
+
+.navbarH{  
+    margin-bottom: 10px;
+    text-align: center;       
+    height: 60px; 
+    width: 100%;  
+    display: flex;  
+    font-size: 30px; 
+    border: 2px solid black;
+    border-radius: 20px;
+} 
+.navbarBrand{  
+    margin-left: 10%; 
+    align-items: center;   
+    display: flex;       
+    height: 60px; 
+    width: 100%;  
+    font-size: 30px;
+} 
+.space{ 
+    text-align: center; 
+    align-items: center;  
+    background-color: white;     
+    height: 1px; 
+    width: 100%;  
+    display: flex; 
+    color: whitesmoke;
+} 
+
+
+/*
+    height: 500px; 
+    width: 100%;
+    display: flex;
+    align-items: center;*/ 
+
