@@ -6,7 +6,7 @@ import '../CSS/banner.css'
 let margin = '.7rem'
 function HorizontalNav() {
   return (
-    <div>
+    <div style={{marginTop:'1rem'}}>
        <Navbar bg="dark" variant="dark" className='navbarH'>
             <Container>
                 <Navbar.Brand smooth className= 'navbarBrand' href="/">TOBIAS NAV</Navbar.Brand>

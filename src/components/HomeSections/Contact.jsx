@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import '../CSS/boxes.css' 
 import '../CSS/banner.css' 
 import {text, text1} from '../text/Contact' 
@@ -8,13 +8,55 @@ import{
     faGlobe, 
   } from '@fortawesome/free-solid-svg-icons' 
   import{ 
-    faYoutube, 
-    faGithub, 
-    faLinkedin,   
+    faGithub,   
     faWikipediaW, 
-  } from '@fortawesome/free-brands-svg-icons';
+  } from '@fortawesome/free-brands-svg-icons'; 
+  import{ModeContext} from '../Context/ModeContext'
 
-function Contact() {
+function Contact() { 
+  const {mode} = useContext(ModeContext);  
+  if(mode) { 
+    return ( 
+      <div>
+      <p className='topSpace' id='Contact'></p>
+      <h2 className='titleBox'>Contact </h2>       
+      <div className='box'> 
+                          <h2 className='centerTitle'>Contact Us At</h2>
+                          <p>{text}</p> 
+                           <p className='centerTitle'><a href='mailto:larizmen@stanford.edu'className='Mail social'>  
+                              <FontAwesomeIcon icon={faEnvelope} size='2x'/></a>  
+                              <a 
+                                  href='mailto:meirew@stanford.edu' 
+                                  className='Mail social' 
+                                >  
+                                  <FontAwesomeIcon icon={faEnvelope} size='2x'/>
+                                </a></p> 
+                            <p>{text1}</p>  
+                            <p className='centerTitle'><a 
+                            href='https://ssi-wiki.stanford.edu/Main_Page' 
+                            className='wiki social' 
+                          > 
+                            <FontAwesomeIcon icon={faWikipediaW} size='2x'/> 
+                          </a>  
+                          <a 
+                            href='https://github.com/arizmendi-luis' 
+                            className='Github social' 
+                          > 
+                            <FontAwesomeIcon icon={faGithub} size='2x'/> 
+                          </a> 
+                          <a 
+                            href='https://stanfordssi.org/' 
+                            className='wiki social' 
+                          > 
+                            <FontAwesomeIcon icon={faGlobe} size='2x'/> 
+                          </a></p>    
+                          <p></p>   
+                                                
+          </div>  
+  </div>
+) 
+  } 
+  else{
   return (
     <div>
         <p className='topSpace' id='Contact'></p>
@@ -58,7 +100,8 @@ function Contact() {
             </div> 
         </div> 
     </div>
-  )
+  ) 
+  }
 }
 
 export default Contact

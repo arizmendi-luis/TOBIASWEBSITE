@@ -1,4 +1,4 @@
-import React from "react";
+
 
 export const text = "Contact us at the following..."; 
 

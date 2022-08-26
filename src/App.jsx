@@ -2,18 +2,19 @@ import './App.css';
 import Navbar from "./components/NavigationBars/Sidebar"; 
 import {BrowserRouter as Router, Routes, Route,} from 'react-router-dom';  
 import Home from "./Routes/Home"
-import HorizontalNav from './components/NavigationBars/HorizontalNav';
-
+import {ModeContextProvider} from './components/Context/ModeContext';
 
 function App() {
-  return ( 
-      <Router>  
-        <Navbar/> 
+  return (  
+    <ModeContextProvider>
+      <Router>   
+        <Navbar/>  
         <Routes> 
           <Route path = "/"  element={<Home/>}/> 
           <Route path = "/home"  element={<Home/>}/> 
         </Routes>
       </Router> 
+    </ModeContextProvider> 
   );
 }
 

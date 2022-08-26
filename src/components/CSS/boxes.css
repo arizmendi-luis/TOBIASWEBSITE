@@ -49,7 +49,7 @@
   } 
 
   .topSpace{ 
-    height: 3rem;
+    height: 4rem;
   } 
 
   .buttonCenter{ 
@@ -70,4 +70,10 @@
 
   .centerPic{
     width: 100%; 
+  } 
+
+  .centerPic2{ 
+    width: 100%; 
+    padding: 1%;
+
   }

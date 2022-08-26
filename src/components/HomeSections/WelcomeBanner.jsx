@@ -1,26 +1,20 @@
 import React from 'react' 
 import '../CSS/banner.css'  
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
-import{ 
-  faYoutube, 
-  faGithub, 
-  faLinkedin, 
-} from '@fortawesome/free-brands-svg-icons'; 
-import{ 
-  faEnvelope,
-} from '@fortawesome/free-solid-svg-icons' 
-import * as SiIcons from "react-icons/si";  
 import scTobias from "../../Images/scTobias.png" 
-import '../CSS/boxes.css' 
+import '../CSS/boxes.css'  
+import Container from 'react-bootstrap/esm/Container'
 
 function WelcomeBanner() {
   return (  
-    <>
+    <> 
       <div className='banner' id='Home'>  
+      <Container>
         <img src={scTobias}  alt="TOBIAS: Tethered Observatory for Ballon Based Imaging and Atmospheric Sampling " className='bannerImage' />  
         <p className='bannerSub'>Stanford Student Space Initiative Joint Project with NASA</p>
-      </div> 
+        </Container>
+      </div>  
       <div className='bottomBar'></div> 
+          
     </>  
       
   )

@@ -1,0 +1,39 @@
+
+.switch{ 
+    align-items: center; 
+    width: 100%; 
+    margin-left: 25%; 
+    height: 3rem;
+}
+.halfButton{   
+    vertical-align: middle; 
+    width: 25%; 
+    height: 100%; 
+    padding: 0;   
+    align-items: center; 
+    text-align: center; 
+    display: inline-block;
+  } 
+
+.button{ 
+    border: 3px solid black ; 
+    background-color: #8C1515; 
+    height: 100%; 
+    width: 100%;  
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-weight: 50;
+} 
+
+.buttonSelected{ 
+    border: 3px solid black ; 
+    background-color: white; 
+    height: 100%; 
+    width: 100%;  
+    color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+} 
+.buttonSelected:hover{ 
+    color: black;
+	background-color: rgb(185,185,185); 
+}
