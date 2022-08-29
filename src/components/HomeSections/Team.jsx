@@ -5,7 +5,9 @@ import {text} from '../text/Team'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import{ faGlobe} from '@fortawesome/free-solid-svg-icons'; 
 import{faWikipediaW} from '@fortawesome/free-brands-svg-icons'; 
-import{ModeContext} from '../Context/ModeContext'
+import{ModeContext} from '../Context/ModeContext' 
+
+import TeamLogos from '../../Images/developmentImgs/LogoDrawing (3).png'
 
 function Team() { 
   const {mode} = useContext(ModeContext);  
@@ -29,7 +31,7 @@ function Team() {
                            > 
                              <FontAwesomeIcon icon={faGlobe} size='2x'/> 
                            </a></p> 
-                           <h2  className='centerTitle'>Photo</h2> 
+                           <img className = 'centerPic2' src={TeamLogos} alt='NASA logo above SSI logo'></img> 
        </div>       
    </div>
     )
@@ -41,7 +43,7 @@ function Team() {
       <h2 className='titleBox'>Team</h2>       
         <div className='sideBySide'>
         <div className='halfBox'>  
-        <h2  className='centerTitle'>Photo</h2>
+        <img className='centerPic' src={TeamLogos} alt= 'NASA logo above SSI logo'></img>
         </div>  
         <div className='halfBox'>  
         <h2 className='centerTitle'>The Team</h2>

@@ -10,7 +10,7 @@ function WelcomeBanner() {
       <div className='banner' id='Home'>  
       <Container>
         <img src={scTobias}  alt="TOBIAS: Tethered Observatory for Ballon Based Imaging and Atmospheric Sampling " className='bannerImage' />  
-        <p className='bannerSub'>Stanford Student Space Initiative Joint Project with NASA</p>
+        <p className='bannerSub'>Stanford Student Space Initiative Joint Project with NASA JPL</p>
         </Container>
       </div>  
       <div className='bottomBar'></div> 

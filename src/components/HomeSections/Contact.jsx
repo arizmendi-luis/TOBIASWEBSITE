@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import '../CSS/boxes.css' 
 import '../CSS/banner.css' 
-import {text, text1} from '../text/Contact' 
+//import {text, text1} from '../text/Contact' 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'; 
 import{ 
     faEnvelope, 
@@ -9,7 +9,8 @@ import{
   } from '@fortawesome/free-solid-svg-icons' 
   import{ 
     faGithub,   
-    faWikipediaW, 
+    faWikipediaW,  
+    faYoutube,
   } from '@fortawesome/free-brands-svg-icons'; 
   import{ModeContext} from '../Context/ModeContext'
 
@@ -21,17 +22,19 @@ function Contact() {
       <p className='topSpace' id='Contact'></p>
       <h2 className='titleBox'>Contact </h2>       
       <div className='box'> 
-                          <h2 className='centerTitle'>Contact Us At</h2>
-                          <p>{text}</p> 
-                           <p className='centerTitle'><a href='mailto:larizmen@stanford.edu'className='Mail social'>  
-                              <FontAwesomeIcon icon={faEnvelope} size='2x'/></a>  
-                              <a 
+                          <h2 className='centerTitle'>Contact Us At</h2>  
+
+                           <p className='centerTitle'>Luis' (Project Co-Lead) Email:
+                           <a href='mailto:larizmen@stanford.edu'className='Mail social'>  
+                            <FontAwesomeIcon icon={faEnvelope} size='2x'/></a></p> 
+
+                              <p className='centerTitle'>Milo's (Project Co-Lead) Email:<a 
                                   href='mailto:meirew@stanford.edu' 
                                   className='Mail social' 
                                 >  
                                   <FontAwesomeIcon icon={faEnvelope} size='2x'/>
-                                </a></p> 
-                            <p>{text1}</p>  
+                                </a></p>  
+                          <h2 className='centerTitle'>Or Learn More About us through these Links</h2> 
                             <p className='centerTitle'><a 
                             href='https://ssi-wiki.stanford.edu/Main_Page' 
                             className='wiki social' 
@@ -49,7 +52,15 @@ function Contact() {
                             className='wiki social' 
                           > 
                             <FontAwesomeIcon icon={faGlobe} size='2x'/> 
-                          </a></p>    
+                          </a> 
+
+                          <a 
+                            href='https://www.youtube.com/watch?v=aOPAU5mK-lQ&list=PL3CqGSQ-n58Ekk7xk3Rmcc3Y7qGSqUf4I' 
+                            className='youtube social' 
+                          > 
+                            <FontAwesomeIcon icon={faYoutube} size='2x'/> 
+                          </a></p> 
+
                           <p></p>   
                                                 
           </div>  
@@ -63,38 +74,44 @@ function Contact() {
         <h2 className='titleBox'>Contact </h2>       
         <div className='sideBySide'>
             <div className='halfBox'>  
-                <h2  className='centerTitle'>Photo</h2>
+                <h2  className='centerTitle'>Contact Us</h2> 
+                <p className='centerTitle'>Luis' (Project Co-Lead) Email:
+                           <a href='mailto:larizmen@stanford.edu'className='Mail social'>  
+                            <FontAwesomeIcon icon={faEnvelope} size='2x'/></a></p> 
+
+                              <p className='centerTitle'>Milo's (Project Co-Lead) Email:<a 
+                                  href='mailto:meirew@stanford.edu' 
+                                  className='Mail social' 
+                                >  
+                                  <FontAwesomeIcon icon={faEnvelope} size='2x'/>
+                                </a></p> 
                     </div>  
                         <div className='halfBox'>  
-                            <h2 className='centerTitle'>Contact Us</h2>
-                            <p>{text}</p> 
-                             <p className='centerTitle'><a href='mailto:larizmen@stanford.edu'className='Mail social'>  
-                                <FontAwesomeIcon icon={faEnvelope} size='2x'/></a>  
-                                <a 
-                                    href='mailto:meirew@stanford.edu' 
-                                    className='Mail social' 
-                                  >  
-                                    <FontAwesomeIcon icon={faEnvelope} size='2x'/>
-                                  </a></p> 
-                              <p>{text1}</p>  
-                              <p className='centerTitle'><a 
+                            <h2 className='centerTitle'>Or Learn More About us at</h2>  
+                              <p className='centerTitle'>SSI's Wikiapedia Page: <a 
                               href='https://ssi-wiki.stanford.edu/Main_Page' 
                               className='wiki social' 
                             > 
                               <FontAwesomeIcon icon={faWikipediaW} size='2x'/> 
-                            </a>  
-                            <a 
+                            </a></p>  
+                            <p className='centerTitle'>Our Projects Github: <a 
                               href='https://github.com/arizmendi-luis' 
                               className='Github social' 
                             > 
                               <FontAwesomeIcon icon={faGithub} size='2x'/> 
-                            </a> 
-                            <a 
+                            </a></p> 
+                            <p className='centerTitle'> SSI's Website: <a 
                               href='https://stanfordssi.org/' 
                               className='wiki social' 
                             > 
                               <FontAwesomeIcon icon={faGlobe} size='2x'/> 
-                            </a></p>    
+                            </a></p> 
+                            <p className='centerTitle'>Projects Testing Playlist:<a 
+                            href='https://www.youtube.com/watch?v=aOPAU5mK-lQ&list=PL3CqGSQ-n58Ekk7xk3Rmcc3Y7qGSqUf4I' 
+                            className='youtube social' 
+                          > 
+                            <FontAwesomeIcon icon={faYoutube} size='2x'/> 
+                          </a></p>    
                             <p></p>   
                                                   
             </div> 
