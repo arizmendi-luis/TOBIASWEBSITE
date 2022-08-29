@@ -114,4 +114,20 @@
     max-height: 50%;  
     border: 1px solid black; 
     border-radius: 30px; 
+  }  
+
+  .TeamLogo{ 
+    max-width: 100%;  
+    border-radius: 30px;  
+    max-height: 20rem; 
   } 
+
+  .halfBoxLogo{ 
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle; 
+    width: 50%; 
+    height: 100%; 
+    text-align: center; 
+    align-items: center;
+  }
