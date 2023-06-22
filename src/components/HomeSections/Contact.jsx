@@ -8,7 +8,7 @@ import{
     faGlobe, 
   } from '@fortawesome/free-solid-svg-icons' 
   import{ 
-    faGithub,   
+    //faGithub,   
     faWikipediaW,  
     faYoutube,
   } from '@fortawesome/free-brands-svg-icons'; 
@@ -24,16 +24,9 @@ function Contact() {
       <div className='box'> 
                           <h2 className='centerTitle'>Contact Us At</h2>  
 
-                           <p className='centerTitle'>Luis' (Project Co-Lead) Email:
-                           <a href='mailto:larizmen@stanford.edu'className='Mail social'>  
+                           <p className='centerTitle'>Project Email:
+                           <a href='mailto:TOBIAS_Project@outlook.com'className='Mail social'>  
                             <FontAwesomeIcon icon={faEnvelope} size='2x'/></a></p> 
-
-                              <p className='centerTitle'>Milo's (Project Co-Lead) Email:<a 
-                                  href='mailto:meirew@stanford.edu' 
-                                  className='Mail social' 
-                                >  
-                                  <FontAwesomeIcon icon={faEnvelope} size='2x'/>
-                                </a></p>  
                           <h2 className='centerTitle'>Or Learn More About us through these Links</h2> 
                             <p className='centerTitle'><a 
                             href='https://ssi-wiki.stanford.edu/Main_Page' 
@@ -41,12 +34,6 @@ function Contact() {
                           > 
                             <FontAwesomeIcon icon={faWikipediaW} size='2x'/> 
                           </a>  
-                          <a 
-                            href='https://github.com/arizmendi-luis' 
-                            className='Github social' 
-                          > 
-                            <FontAwesomeIcon icon={faGithub} size='2x'/> 
-                          </a> 
                           <a 
                             href='https://stanfordssi.org/' 
                             className='wiki social' 
@@ -75,16 +62,9 @@ function Contact() {
         <div className='sideBySide'>
             <div className='halfBox'>  
                 <h2  className='centerTitle'>Contact Us</h2> 
-                <p className='centerTitle'>Luis' (Project Co-Lead) Email:
-                           <a href='mailto:larizmen@stanford.edu'className='Mail social'>  
+                <p className='centerTitle'>Project Co-lead Email:
+                           <a href='mailto:TOBIAS_Project@outlook.com'className='Mail social'>  
                             <FontAwesomeIcon icon={faEnvelope} size='2x'/></a></p> 
-
-                              <p className='centerTitle'>Milo's (Project Co-Lead) Email:<a 
-                                  href='mailto:meirew@stanford.edu' 
-                                  className='Mail social' 
-                                >  
-                                  <FontAwesomeIcon icon={faEnvelope} size='2x'/>
-                                </a></p> 
                     </div>  
                         <div className='halfBox'>  
                             <h2 className='centerTitle'>Or Learn More About us at</h2>  
@@ -94,12 +74,7 @@ function Contact() {
                             > 
                               <FontAwesomeIcon icon={faWikipediaW} size='2x'/> 
                             </a></p>  
-                            <p className='centerTitle'>Our Projects Github: <a 
-                              href='https://github.com/arizmendi-luis' 
-                              className='Github social' 
-                            > 
-                              <FontAwesomeIcon icon={faGithub} size='2x'/> 
-                            </a></p> 
+                            
                             <p className='centerTitle'> SSI's Website: <a 
                               href='https://stanfordssi.org/' 
                               className='wiki social' 
